@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "ngx-owl-carousel-o/lib/styles/scss/owl.theme.default";
+
+body {
+  // font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 90%;
+}

@@ -1,0 +1,361 @@
+<section class="home">
+  <div class="landing py-5">
+    <img
+      class="home-circle"
+      src="/images/whole_curcle_icon.webp"
+      alt="whole_curcle_icon"
+    />
+    <img
+      class="triangle-face"
+      src="/images/two_face_icon.png"
+      alt="two_face_icon"
+    />
+    <div class="row g-4 mx-0 py-5 justify-content-between align-items-center">
+      <div class="col-5 p-0">
+        <swiper-container
+          autoplay='{"delay": 1000, "disableOnInteraction": false}'
+          speed="300"
+          effect="fade"
+          loop="true"
+        >
+          <swiper-slide>
+            <img class="w-100 h-100" src="/images/home-img-1.webp" />
+          </swiper-slide>
+          <swiper-slide>
+            <img class="w-100 h-100" src="/images/home-img-2.webp" />
+          </swiper-slide>
+          <swiper-slide>
+            <img class="w-100 h-100" src="/images/home-img-3.webp" />
+          </swiper-slide>
+        </swiper-container>
+      </div>
+      <div class="col-6 p-0">
+        <div class="landing-triangle">
+          <img src="/images/main_triangle.webp" alt="main_triangle" />
+
+          <div class="triangle_images">
+            <img
+              class="triangle_img"
+              src="/images/Triangle.webp"
+              alt="Triangle"
+            />
+
+            <img class="logo_v2" src="/images/Logo_V2.gif" alt="Logo_V2" />
+            <img
+              class="close_icon"
+              src="/images/close_icon.webp"
+              alt="close_icon"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 p-0">
+        <div class="landing-content">
+          <div class="caption slideshow">
+            <img src="/images/bond-1.webp" alt="Image 1" />
+            <img src="/images/bond-1.webp" alt="Image 2" />
+            <img src="/images/bond-1.webp" alt="Image 3" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about py-5">
+  <img
+    class="about-triangle"
+    src="/images/two_face_icon.png"
+    alt="two_face_icon"
+  />
+
+  <img
+    class="about-circle"
+    src="/images/whole_curcle_icon.webp"
+    alt="whole_curcle_icon"
+  />
+
+  <img
+    class="about-half-circle"
+    src="/images/half_circle_icon.png"
+    alt="half_circle_icon"
+  />
+
+  <img class="close_icon" src="/images/close_icon.webp" alt="close_icon" />
+
+  <div class="main-title position-relative z-3 text-center">
+    <h2>About</h2>
+  </div>
+  <div class="container-fluid px-0">
+    <div class="row p-0 m-0 justify-content-between align-items-center">
+      <div class="col-md-5 px-0">
+        <div class="about-img pb-5">
+          <img src="/images/left_arrow_db.png" alt="left_arrow_db" />
+        </div>
+      </div>
+      <div class="col-md-7 px-0">
+        <div class="about-content">
+          <h3>WE ARE THE BONDERS!</h3>
+          <p>
+            Bonders are a blend of cheerful, uprising and creative peeps working
+            to deliver outstanding services. We are committed and loyalty runs
+            in the veins; when we are put together our results blow minds.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews py-5 position-relative">
+  <div class="main-title text-center pb-4">
+    <h2>Clients Reviews</h2>
+  </div>
+
+  <owl-carousel-o [options]="customOptions" #owlCarousel>
+    <ng-template carouselSlide>
+      <div class="container w-50">
+        <div class="row align-items-center">
+          <div class="col-md-1 align-self-start p-3">
+            <div class="icon">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="carousle-slider">
+              <div class="carousel-image">
+                <img src="/images/avatar.png" alt="avatar" />
+              </div>
+              <div class="carousel-content">
+                <h3 class="m-0 pt-3">Menna</h3>
+                <p class="desc m-0">Sales Director</p>
+                <div class="icons">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-2">
+                  Very detailed and knowledgeable, they have managed to reduce
+                  my cost per click from FB and google by 100% compared to my
+                  old agency.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container w-50">
+        <div class="row align-items-center">
+          <div class="col-md-1">
+            <div class="icon">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="carousle-slider">
+              <div class="carousel-image">
+                <img src="/images/avatar.png" alt="avatar" />
+              </div>
+              <div class="carousel-content">
+                <h3 class="m-0 pt-3">Mostafa</h3>
+                <p class="desc m-0">Business Owner</p>
+                <div class="icons">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-2">
+                  Very detailed and knowledgeable, they have managed to reduce
+                  my cost per click from FB and google by 100% compared to my
+                  old agency.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template carouselSlide>
+      <div class="container w-50">
+        <div class="row align-items-center">
+          <div class="col-md-1">
+            <div class="icon">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="carousle-slider">
+              <div class="carousel-image">
+                <img src="/images/avatar.png" alt="avatar" />
+              </div>
+              <div class="carousel-content">
+                <h3 class="m-0 pt-3">Khaled</h3>
+                <p class="desc m-0">Marketing Director</p>
+                <div class="icons">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="pt-2">
+                  Very detailed and knowledgeable, they have managed to reduce
+                  my cost per click from FB and google by 100% compared to my
+                  old agency.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+  </owl-carousel-o>
+
+  <div class="custom-nav">
+    <button class="prev-carousel" (click)="prev()">
+      <i class="fa-solid fa-chevron-left"></i>
+      <!-- Prev -->
+    </button>
+    <button class="next-carousel" (click)="next()">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+</section>
+
+<section class="contact py-5">
+  <div class="container">
+    <div class="main-title text-center">
+      <h2 class="pb-lg-5">LET'S TALK</h2>
+    </div>
+
+    <div class="contact_form w-75 mx-auto">
+      <form [formGroup]="phoneForm" (ngSubmit)="submit()">
+        <div class="mb-3">
+          <input
+            class="form-control bg-transparent border-white rounded-pill p-3"
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+        </div>
+
+        <div class="mb-3 full-width">
+          <ngx-intl-tel-input
+            [cssClass]="
+              'custom form-control bg-transparent border-white holder'
+            "
+            [preferredCountries]="preferredCountries"
+            [enableAutoCountrySelect]="false"
+            [enablePlaceholder]="true"
+            [searchCountryFlag]="true"
+            [searchCountryField]="searchFields"
+            [selectFirstCountry]="false"
+            [selectedCountryISO]="selectedCountryISO"
+            [numberFormat]="PhoneNumberFormat.International"
+            name="phone"
+            formControlName="phone"
+          ></ngx-intl-tel-input>
+        </div>
+
+        <div class="mb-3">
+          <input
+            class="form-control bg-transparent border-white rounded-pill p-3"
+            type="email"
+            name="Email"
+            placeholder="Email Address"
+          />
+        </div>
+
+        <div>
+          <textarea
+            class="form-control bg-transparent border-white p-3 rounded-5"
+            placeholder="Comment"
+            style="min-height: 200px"
+          ></textarea>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="contact_details pt-5">
+  <div class="container-fluid pb-4">
+    <div class="main-title text-center">
+      <h2 class="pb-5">Our Contacts</h2>
+    </div>
+    <h3 class="text-uppercase text-center">get in touch</h3>
+
+    <div class="row g-4 contact_items">
+      <div class="col-md-4">
+        <div class="card text-white py-2 px-3 rounded-5 text-center">
+          <div>
+            <img
+              class="card-img-top"
+              src="/images/mobile_contact.png"
+              alt="mobile_contact"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <a target="_blank" href="tel:+201021551322">+2 - 01021551322</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white py-2 px-3 rounded-5 text-center">
+          <div>
+            <img
+              class="card-img-top"
+              src="/images/message_contact.png"
+              alt="message_contact"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <a href="mailto:Bonder@digitalbondmena.com" target="_blank"
+                >Bonder&#64;digitalbondmena.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white py-2 px-3 rounded-5 text-center">
+          <div>
+            <img
+              class="card-img-top"
+              src="/images/pin_contact.png"
+              alt="pin_contact"
+            />
+          </div>
+          <div class="card-body">
+            <p class="card-text">
+              <a
+                href="https://maps.app.goo.gl/hnva46GgX2TRfLvd9"
+                target="_blank"
+                >11 Dr El-Sebaey, Ad Dokki, Giza Governorate</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-5">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3454.141468987771!2d31.209198!3d30.032799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841dbdca09375%3A0xc8f0a33432ed7642!2sDigital%20Bond!5e0!3m2!1sen!2seg!4v1744846553681!5m2!1sen!2seg"
+      width="100%"
+      height="600"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>

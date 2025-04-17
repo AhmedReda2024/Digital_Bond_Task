@@ -1,0 +1,39 @@
+.navbar {
+  background-image: url(/images/NAVBAR.a937e89a72d2e7b2.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .fa-bars {
+    font-size: 30px;
+  }
+
+  .navbar-brand {
+    img {
+      width: 70px;
+    }
+  }
+
+  .nav-icons {
+    .nav-item {
+      .nav-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    .nav-icons {
+      flex-direction: row !important;
+    }
+  }
+}
